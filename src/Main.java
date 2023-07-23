@@ -17,5 +17,13 @@ public class Main {
         System.out.println("the world has shut me out");
 
         System.out.println("Good love is on the way!");
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println("A");
+        }
+
+        for (int i = 0; i < 5; ++i) {
+            System.out.println("B");
+        }
     }
 }
