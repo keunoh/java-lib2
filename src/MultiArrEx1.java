@@ -25,7 +25,6 @@ public class MultiArrEx1 {
         while (true) {
             System.out.printf("좌표 입력하셈 종료는 00 >> ");
             String input = scanner.nextLine();
-
             if (input.length() == 2) {
                 x = input.charAt(0) - '0';
                 y = input.charAt(1) - '0';
